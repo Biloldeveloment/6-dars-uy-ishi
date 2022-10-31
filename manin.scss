@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+  .align-start {
+    align-items: flex-start;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .align-stretch {
+    align-items: stretch;
+  }
+  .justify-start {
+    justify-content: flex-end;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-around {
+    justify-content: space-between;
+  }
+  
+  .justify-evely {
+    justify-content: space-evenly;
+  }
+
+  header#main-header {
+    background-color: #fff;
+    padding: 2rem 0;
+  }
+
+  header#main-header ul {
+    color: rgba(131, 136, 143, 1);
+    font-size: 15px;
+    font-weight: 400;
+    gap: 2rem;
+  }
+
+
+
+  .qora{
+    color: black;
+  }
+
+ .yulduz{
+    width: 1280px;
+    height: 600px;
+    background-image: url(/images/Bitmap.svg);
+ }
+
+
+
+ .portion{
+    margin-left: 120px;
+ }
+   
+  section#show h1 {
+    font-size: 72px;
+    line-height: 72px;
+    color: #fff;
+    font-weight: 900;
+    width: 493px;
+    margin-bottom: -135px;
+    padding: 7rem 0;
+  }
+  
+  section#show p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 405px;
+    color: #fff;
+    line-height: 26px;
+    margin: 4rem 0;
+    margin-bottom: 35px;
+  }
+.btn{ 
+  all: unset;
+  background-color: rgba(102, 210, 207, 1);
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+   }
+
+   .card{
+    display: flex;
+   
+   
+   }
+
+   .rasm{
+    transform: translate(10px, 30px);
+   }
+
+
+
+   .title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4b;
+    margin: 1rem;
+    margin-left: 80px;
+   }
+
+
+   section#panda{
+    margin-bottom: 150px;
+   }
+   .text{
+    width: 245px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4b;
+   }
+
+
+
+   .shadow{
+    display: flex;
+    gap: 30px;
+   }
+
+   .foto{
+    margin-bottom: 35px;
+   }
+
+
+   .biznes{
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding: 5rem 0;
+   }
+
+   .pick{
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   }
+
+   .nescafee p{
+    color: grey;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 550px;
+    text-align: center;
+    margin-left: 370px;
+    margin-bottom: -100px;
+   }
+
+   .myname{
+    width: 1280px;
+    height: 577px;
+    background-image: url(/images/Bitmap\ \(1\).svg);
+   }
+
+   .shad{
+    display: flex;
+    gap: 50px;
+    margin-left: 90px;
+    transform: translate(10px, -250px);
+   }
+
+   .tit{
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+   }
+
+   .takst{
+    width: 220px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-left: 40px;
+   }
+
+   .bir{
+    width: 350px;
+    height: 382px;
+    background: rgba(14, 135, 132, 1);
+    border-radius: 8px;
+    padding: 2rem ;
+
+   }
+
+   .ikki{
+    width: 350px;
+    height: 382px;
+    background: rgba(14, 135, 132, 1);
+    border-radius: 8px ;
+    padding: 2rem ;
+   }
+
+   .uch{
+    width: 350px;
+    height: 382px;
+    background: rgba(14, 135, 132, 1);
+    border-radius: 8px;
+    padding: 2rem;
+   }
+
+
+
+   .iphone{
+    margin-left: 90px;
+    margin-bottom: 35px;
+    padding: 1rem 0;
+   }
+
+
+
+
+
+
+   .iphonee{
+    margin-left: 90px;
+    margin-bottom: 35px;
+    padding: 1.6rem 0;
+   }
+
+   span{
+    color: rgba(253, 214, 186, 1);
+
+   }
+
+   .americ{
+    transform: translate(0px, 17px);
+   }
+
+   .yoz{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #838383;
+    margin-bottom: 25px;
+   }
+
+   .nom{
+    margin-bottom: 100px;
+   }
+
+   .shan{
+    display: flex;
+    gap: 100px;
+   }
+
+   .iphones{
+    margin-bottom: 35px;
+
+   }
+
+   .titi{
+    width: 215px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 42px;
+   }
+
+   .sarlavha{
+    width: 269px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4b;
+    margin-bottom: 60px;
+
+   }
+
+
+
+
+   .btn{
+    all: unset;
+    background: rgba(102, 210, 207, 1);
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    text-align: center;
+  
+   }
+
+   .btn img{
+    transform: translate(-8px, 23px);
+   }
+
+
+   .tamom{
+    align-items:center;
+    width: 1280px;
+    height: 120px;
+    background-image: url(/images/Mask.svg);
+   }
+
+   .yashil{
+    color: #fff;
+   }
+
+
+   .yashil img{
+    transform: translate(-103px, 20px);
+   }
+
+
+
+   .blol{
+    padding: 80px;
+    gap: 50px;
+   }
+
+   .salom{
+    padding: 70px;
+   }
+
+
+   .twitter{
+    color: #fff;
+    margin-left: -10px;
+   }
+
+   .facebook{
+    color: #fff;
+    margin-left: 10px;
+   }
+
+   .instagram{
+    color: #fff;
+    margin-left: 10px;
+   }
+
+
+   .facebook img{
+    transform: translate(-10px, 20px);
+   }
+
+
+   @media (max-width: 1020px){
+    .container{
+        width: 800px;
+        flex-direction: column;
+    }
+   }
+
+
+   @media (max-width: 820px){
+    .container{
+         width: 100%;
+    }
+   }
+
+   @media only screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    header#main-header {
+        background-color: #fff;
+        padding: 2rem 0;
+      }
+      header#main-header ul {
+        color: rgba(131, 136, 143, 1);
+        font-size: 15px;
+        font-weight: 400;
+        gap: 2rem;
+      }
+
+   }
